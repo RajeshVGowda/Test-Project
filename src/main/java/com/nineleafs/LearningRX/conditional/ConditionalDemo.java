@@ -12,7 +12,7 @@ public class ConditionalDemo {
 
         System.out.println("****************************");
 
-        System.out.println("skip demo ...");
+      /*  System.out.println("skip demo ...");
         Observable.just(1,2,3,4,5)
                 .skipWhile((i)->{
                     return i<3;
@@ -28,5 +28,6 @@ public class ConditionalDemo {
         Observable.just(1,2,3,4)
                 .first()
                 .subscribe((i)-> System.out.println(i));
+                */
     }
 }
